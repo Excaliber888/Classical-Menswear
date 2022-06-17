@@ -2,6 +2,11 @@
 body {
   background-color: #171010;
   overflow-x: hidden;
+  background-image: url(../Pictures/coverphoto2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  // background-attachment: fixed;
+  padding-top: 20px;
 }
 
 p {
@@ -15,8 +20,10 @@ h4 {
 /* Navigation bar */
 
 .navbar {
-  background-color: transparent !important;
+  background: linear-gradient(to bottom, #000000 30%, transparent 100%);
 }
+
+
 
 .navbar-brand {
   color: White;
@@ -38,14 +45,13 @@ h4 {
 /* Cover Section */
 
 .firstsection {
-  background-image: url(../Pictures/coverphoto2.jpg);
-  background-repeat: no-repeat;
-  background-size: 120%;
+
   padding-bottom: 2rem;
 }
 
 .coversection {
   padding: 0;
+  padding-top: 5%;
   text-align: center;
   margin-bottom: 20rem;
 }
