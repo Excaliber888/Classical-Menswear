@@ -91,7 +91,7 @@ h4 {
   border-radius: 2%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .card-title {
     text-align: center;
   }
@@ -103,5 +103,14 @@ h4 {
   .card-shop-images {
     display: block;
     margin: auto;
+  }
+
+  body {
+    background-image: url(../Pictures/coverphoto4.jpg);
+  }
+
+  .coversection {
+    padding-top: 10%;
+    padding-bottom: 20%;
   }
 }
