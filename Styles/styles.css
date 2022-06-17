@@ -72,18 +72,38 @@ h4 {
 /* Shop options section */
 .middle-section {
   padding: 0.2%;
+  padding-bottom: 20%;
+  padding-top: 12%;
 }
 
 .card {
   border-color: #EDE9E8;
   border-radius: 2%;
-  height: 100%;
+  height: 200%;
 }
 
 .card-body {
-  background-color: #423F3E;
-  border-color: #423F3E;
+  background-color: #171010;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: none;
   border-radius: 2%;
+}
+
+.jacket-card {
+  background-image: url(../Pictures/jacket-photo.jpg);
+}
+
+.pants-card {
+  background-image: url(../Pictures/pants-photo.webp);
+}
+
+.accessories-card {
+  background-image: url(../Pictures/tie-photo.webp);
+}
+
+.shoes-card {
+  background-image: url(../Pictures/shoes-photo.webp);
 }
 
 .card-shop-images {
